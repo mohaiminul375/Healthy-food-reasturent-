@@ -49,9 +49,10 @@ font-family: 'Dancing Script', cursive;
     /* display: flex; */
     /* color: aqua; */
     justify-content: center;
-    /* text-align: center; */
+    text-align: center;
     /* margin: 50px; */
     margin-top: 100px;
+    line-height:1.0 ;
     /* background-color: aliceblue; */
 }
 .title1{
@@ -66,6 +67,21 @@ font-family: 'Dancing Script', cursive;
 .title2{
     font-size: 50px;
     color: rgba(4, 196, 196, 0.781);
+}
+button{
+    background-color: chartreuse;
+    padding: 20px 25px;
+    align-items: center;
+}
+button a{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    border-radius: 200px;
+    border-bottom: 5px solid slategray;
+    box-shadow: 0px 10px 10px red;
 }
 span{
     font-family: 'Courgette', cursive;
@@ -106,9 +122,7 @@ font-family: 'Dancing Script', cursive;
 .chines{
     margin-top: 60px;
 }
-.chines{
 
-}
 .chinescard{
     display: flex;
     justify-content: space-evenly;
